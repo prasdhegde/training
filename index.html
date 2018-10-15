@@ -1,0 +1,395 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <script src="main.js"></script>
+
+</head>
+<body>
+    <header>
+         
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+         <img class= "bank logo" src="assets/Clip-27.png" alt="not supported" >
+        
+            <ul>
+                <li class="listItems" onclick="highlight(this)">
+                    DASHBOARD
+                </li>
+                <li class="listItems" onclick="highlight(this)">
+                    ACCOUNTS
+                </li>
+                <li class="listItems" onclick="highlight(this)">
+                    PAYMENTS & TRANFERS
+                </li>
+                <li class="listItems" onclick="highlight(this)">
+                    general services
+                </li>
+                <li class="listItems" onclick="highlight(this)">
+                    favourites
+                </li>
+
+            </ul>
+        
+        <div class="usermanagement">
+            <img class= "userProfile" src="assets/Mask.png" alt="not supported">
+             <div class="username" >
+                Welcome Lesedi Britt
+        </div>
+            <button class="logout"><p>LOG OUT</p></button>
+        </div>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">DASHBOARD</a>
+            <a href="#">ACCOUNTS</a>
+            <a href="#">PAYMENTS & TRANFERS</a>
+            <a href="#">general services</a>
+            <a href="#">favourites</a>
+          </div>
+        
+         
+        </header>
+
+<!--
+<table>
+    <tr>
+        <td>
+            MY PROFILE <img src="assets/my profile.png" height="6px" width="7px">
+        </td>
+        <td>
+            CONTACT US <img src="assets/contact us.png" height="6px" width="7px">
+        </td>
+    </tr>
+</table>-->
+
+
+<!-- bank image starts-->
+
+    <div class="bankimage">
+        <img src="assets/bank.png" width="100%" height="262px">
+    
+
+
+        <div class="quick-access"> 
+            
+                <div class="showProfile" onclick="showProfile(this)"><h5 class="showProfile">my profile </h5></div>
+                <div class="showProfile" onclick="showProfile(this)"><img src="assets/my profile.png" height="6px" width="7px" class="showProfile">  </div>
+                <div class="showContact" onclick="showContact(this)"><h4 class="showContact">contact us</h4></div>
+                <div class="showContact" onclick="showContact(this)"><img src="assets/contact us.png" height="6px" width="7px"></div>
+                <div class="showFont"    onclick="showFont(this)" ><img class="showFont" src="assets/rectangle-19.svg" ></div>
+                <div  id="disProfile" class="disProfile">
+
+                    <div  class="dropdown-content" onclick="stopProp(event)">
+                        <div> Username: Prasad</div>
+                        <div><img src="assets/Mask.png"></div>
+                        <div> 9886391074</div>
+                      </div>
+                </div>
+                
+                
+                <div  id="disContact" class="disContact" onclick="stopProp(event)">
+
+                    <div  class="dropdown-content" >
+                        <div> <img src="assets/icons8-whatsapp.svg" alt=""></div>
+                        <div><img src="assets/if_facebook_circle_color_107175.svg"></div>
+                        <div> 9886391074</div>
+                      </div>
+                </div>
+                
+
+                <div  id="disFont" class="disFont" onclick="stopProp(event)">
+
+                    <div  class="dropdown-content">
+                        <div><h1> ಪ್ರಸಾದ</h1> </div>
+                        <div><h1> പ്രസാദ്</h1></div>
+                        <div> 9886391074</div>
+                      </div>
+                </div>
+        </div>
+    </div>
+
+  <!--  <div class="quick-dropdown">
+
+        <div id="myDropdown" class="dropdown-content">
+            <div> Username: Prasad</div>
+            <div><img src="assets/Mask.png"></div>
+            <div> 9886391074</div>
+          </div>
+    </div>-->
+
+    <div class="dashboard-body">
+    <!-- parent- widget library-->
+        <div class="widget-library">
+    <!-- this is dashboard: dashboard widget/library-->
+
+            <div class="dashboard-box">
+                <div class="root">DASHBOARD:</div>
+                <div class="dashboard-folder">Dashboard</div>
+                <div class="widget-folder">/Widget Library</div>
+
+
+            </div>  <!--dashboard ends-->
+        </div>
+        
+            <div class="dashboard-nav">
+                <div class="wid-lib">
+                    <div class="widget-library-title">
+                        <img src="assets/chevron.svg" onclick = window.open("https://www.youtube.com/watch?v=9ZYTIa2XzoM&ab_channel=GoProHero5")>
+                        <p>Widget Library</p>
+                    </div>
+            
+                    <div class="select-wid">
+                        <p>select the widgets you want to view on your dashboard</p>
+                </div>
+                </div>
+
+            
+            
+                <div class="widget-filter-container">
+
+                    <div class="widget-filter">
+                            <p>Widget Filter</p>
+                            <img class="filterImage"src="assets/filter.png" onclick="showFilter(this)">
+                    </div>
+                    <!--Check boxes-->
+                    <div id="filters" class="filters">
+                        <div class="activity-filter">
+                            <p>Activity based widgets</p>
+                            <div class="cb1">
+                                
+                                <label for='cb1' class="activity">
+                                        Balance & Transaction Info.
+                                        <input id='cb1' type="checkbox">
+                                        <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="cb2">
+                                    
+                                    <label for='cb2' class="activity">
+                                            General Services
+                                            <input id='cb2' type="checkbox">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    
+                            </div>
+                            <div class="cb3">
+                                        
+                                        <label for='cb3' class="activity">Liquidity Management
+                                                <input id='cb3' type="checkbox">
+                                                <span class="checkmark"></span>
+                                        </label>
+                            </div>
+                            <div class="cb4">
+                                    
+                                    <label for='cb4' class="activity">Supply Chain Services
+                                            <input id='cb4' type="checkbox">
+                                            <span class="checkmark"></span>
+                                    </label>
+                            </div>
+                            <div class="cb5">
+                                    
+                                    <label for='cb5' class="activity">
+                                            Trade Finance Services
+                                            <input id='cb5' type="checkbox">
+                                            <span class="checkmark"></span>
+                                    </label>
+                            </div>
+                            <div class="cb6">
+                                    <label for='cb6' class="activity">
+                                            Transaction Management
+                                            <input id='cb6' type="checkbox">
+                                            <span class="checkmark"></span>
+                                    </label>
+                            </div>
+                        </div>
+                        
+                        <!-- functionality based widgets-->
+                        <div class="func-filter">
+                                <p>Functionality based widgets</p>
+                                <div class="cb1">
+                                    
+                                    <label for='cb7' class="func">
+                                            Enquiry
+                                            <input id='cb7' type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                </div>
+                                <div class="cb2">
+                                        
+                                        <label for='cb8' class="func">
+                                                Miscellaneous
+                                                <input id='cb8' type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        
+                                </div>
+                                <div class="cb3">
+                                            
+                                            <label for='cb9' class="func">Request
+                                                    <input id='cb9' type="checkbox">
+                                                    <span class="checkmark"></span>
+                                            </label>
+                                </div>
+                                
+                            </div>
+                        <!-- functionality based widgets ends-->
+
+                        <!-- Widget status-->
+
+                        <div class="widget-status">
+                                <p>Widget Status</p>
+                                <div class="cb1">
+                                    
+                                    <label for='cb10' class="wids">
+                                            Active
+                                            <input id='cb10' type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                </div>
+                                <div class="cb2">
+                                        
+                                        <label for='cb11' class="wids">
+                                                Inactive
+                                                <input id='cb11' type="checkbox">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        
+                                </div>
+                                <button id='search' type="submit">Search</button>
+
+                        </div>
+
+                
+                    </div>
+
+
+                    
+                </div>
+
+                
+
+
+
+        </div>
+
+
+       
+
+
+        <div id="widget-items" class="widget-items">
+                <!-- top 3 boxes-->
+                
+                    <div  class="widget-box" onclick="selectBox(this)">
+                        <img src="assets/fixed deposit.png">
+                        <p>Fixed Deposit</p>
+                        <p>A summary of all your fixed deposits you have invested into.</p>
+                        <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                            <path fill="#000000" fill-rule="evenodd"  d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16zM2 16C2 8.268 8.268 2 16 2s14 6.268 14 14-6.268 14-14 14S2 23.732 2 16zm11.43 2.246l-3.82-3.698-2.031 2.04 5.851 5.844 11.286-10.443-2.106-2.305-9.18 8.562z"/>
+                        </svg>
+                        
+                    </div>
+                    <div class="widget-box" onclick="selectBox(this)">
+                        <img src="assets/Loans.png">
+                        <p>Loans</p>
+                        <p>A summary of your loans and related information</p>
+                        <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                            <path fill="#000000" fill-rule="evenodd"  d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16zM2 16C2 8.268 8.268 2 16 2s14 6.268 14 14-6.268 14-14 14S2 23.732 2 16zm11.43 2.246l-3.82-3.698-2.031 2.04 5.851 5.844 11.286-10.443-2.106-2.305-9.18 8.562z"/>
+                        </svg>
+                    </div>
+                    <div class="widget-box" onclick="selectBox(this)">
+                        <img src="assets/fp.png">
+                        <p>Future Payments</p>
+                        <p>A list of upcoming events scheduled in your calendar</p>
+                        <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                            <path fill="#000000" fill-rule="evenodd"  d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16zM2 16C2 8.268 8.268 2 16 2s14 6.268 14 14-6.268 14-14 14S2 23.732 2 16zm11.43 2.246l-3.82-3.698-2.031 2.04 5.851 5.844 11.286-10.443-2.106-2.305-9.18 8.562z"/>
+                        </svg>
+                    </div>
+                    <div class="widget-box" onclick="selectBox(this)">
+                        <img src="assets/Mail Alerts.png">
+                        <p>Mail Alerts</p>
+                        <p>Broadcast message alerts,  unread emails etc.</p>
+                            <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                <path fill="#000000" fill-rule="evenodd"  d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16zM2 16C2 8.268 8.268 2 16 2s14 6.268 14 14-6.268 14-14 14S2 23.732 2 16zm11.43 2.246l-3.82-3.698-2.031 2.04 5.851 5.844 11.286-10.443-2.106-2.305-9.18 8.562z"/>
+                            </svg>
+                    </div>
+               
+                <!--bottom boxes-->
+                
+                    <div class="widget-box" onclick="selectBox(this)">
+                        <img src="assets/Mail Alerts.png">
+                        <p>Mail Alerts</p>
+                        <p>Broadcast message alerts,  unread emails etc.</p>
+                            <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                <path fill="#000000" fill-rule="evenodd"  d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16zM2 16C2 8.268 8.268 2 16 2s14 6.268 14 14-6.268 14-14 14S2 23.732 2 16zm11.43 2.246l-3.82-3.698-2.031 2.04 5.851 5.844 11.286-10.443-2.106-2.305-9.18 8.562z"/>
+                            </svg>
+                    </div>
+                    <div class="widget-box" onclick="selectBox(this)">
+                        <img src="assets/Password Alerts.png">
+                        <p>Password Alerts</p>
+                        <p>Alerts related to login and transaction password.</p>
+                        <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                            <path fill="#000000" fill-rule="evenodd"  d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16zM2 16C2 8.268 8.268 2 16 2s14 6.268 14 14-6.268 14-14 14S2 23.732 2 16zm11.43 2.246l-3.82-3.698-2.031 2.04 5.851 5.844 11.286-10.443-2.106-2.305-9.18 8.562z"/>
+                        </svg>
+                    </div>
+                    <div class="widget-box" onclick="selectBox(this)">
+                        <img src="assets/Transaction Shortcuts.png">
+                        <p>Transaction Shortcuts</p>
+                        <p>Quick links related to accounts  and payments.</p>
+                            <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                                <path fill="#000000" fill-rule="evenodd"  d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16zM2 16C2 8.268 8.268 2 16 2s14 6.268 14 14-6.268 14-14 14S2 23.732 2 16zm11.43 2.246l-3.82-3.698-2.031 2.04 5.851 5.844 11.286-10.443-2.106-2.305-9.18 8.562z"/>
+                            </svg>
+                    </div>
+                    <div class="widget-box" onclick="selectBox(this)">
+                        <img src="assets/Mail Alerts.png">
+                        <p>Mail Alerts</p>
+                        <p>Broadcast message alerts,  unread emails etc.</p>
+                        <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                            <path fill="#000000" fill-rule="evenodd"  d="M16 32c8.837 0 16-7.163 16-16S24.837 0 16 0 0 7.163 0 16s7.163 16 16 16zM2 16C2 8.268 8.268 2 16 2s14 6.268 14 14-6.268 14-14 14S2 23.732 2 16zm11.43 2.246l-3.82-3.698-2.031 2.04 5.851 5.844 11.286-10.443-2.106-2.305-9.18 8.562z"/>
+                        </svg>
+                    </div>
+                    
+            
+                    
+                    
+
+        </div>
+            
+
+        
+    <!--</div>
+    </div>
+    </div>
+
+    </div>
+    -->
+        <div class="page-nav">
+                <img src="assets/chevron copy.svg">
+                <p>2 of 2 pages</p>
+        </div>
+    
+    
+        <div class="nav-but">
+            <button id='Back' type="button">Back</button>
+            <button id="add" type="button">Add</button>
+            <button id="remove" type="button">Remove</button>
+        </div>
+</div>
+
+
+
+    <footer>
+        <p>Site Map     |     Privacy Policy     |     Terms & Conditions     |     Disclaimer</p>
+        <p>Cut off time EFT - 2 PM, RTGS - 1:30 PM Finnacle eBanking, All Rights Reserved</p>
+    </footer>
+</body>
+
+
+</html>
+

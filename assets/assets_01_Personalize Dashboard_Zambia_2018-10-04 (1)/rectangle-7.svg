@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="116" viewBox="0 0 112 116">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M1 0h111v116H1z"/>
+        <g transform="translate(1 -3)">
+            <g fill="#C1E5A9" fill-rule="nonzero" opacity=".56">
+                <path d="M107.26 54.06c1 11.44-.58 28.27-7.89 39.43-13.12 20-34.71 25.74-57.83 19.45C18.42 106.65 3.28 86.92 2.12 63 .96 39.08 13.89 18.93 36.29 10.43c37.91-14.43 68 8.79 70.97 43.63z" opacity=".68"/>
+                <path d="M109.6 48.6c1 11.44-.58 28.27-7.89 39.43-13.12 20-34.71 25.74-57.83 19.45-23.12-6.29-38.26-26-39.43-49.94C3.28 33.6 16.24 13.47 38.63 5c37.91-14.43 68 8.76 70.97 43.6z"/>
+            </g>
+            <path fill="#D0EBBE" fill-rule="nonzero" stroke="#C1E5A9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M109.58 33.68v62.46a3.27 3.27 0 0 1-3.31 3.23h-61a3.27 3.27 0 0 1-3.31-3.23V15.32a3.27 3.27 0 0 1 3.31-3.23h41.5l22.81 21.59z"/>
+            <path fill="#FFF" fill-rule="nonzero" d="M106.47 35.4v61.23h-61.5V15.27h40.74"/>
+            <path fill="gray" fill-rule="nonzero" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" d="M85.55 14.8v20.92h20.92z"/>
+            <path stroke="#6B6BC9" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5" d="M10.1 55.66c0 .57-.31 1.11-.35 1.68a1.15 1.15 0 0 0 .93 1.28 1.75 1.75 0 0 0 2-1A1.23 1.23 0 0 0 11.43 56"/>
+            <rect width="52.47" height="52.47" x="2.83" y="50.13" fill="#C1E5A9" fill-rule="nonzero" stroke="#C1E5A9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" opacity=".3" rx="2.29"/>
+            <circle cx="89.84" cy="81.13" r="11.6" fill="#A2D87E" fill-rule="nonzero"/>
+            <path stroke="#404F54" d="M60.24 44.5h25.27M60.24 53.84h25.27M60.24 63.88h25.27M92.25 44.5h8.22M92.25 53.84h8.22M92.25 63.88h8.22"/>
+            <path stroke="#383838" d="M106.5 58.41v37.74H45V14.8h40.74M106.5 52.52v3.03M106.5 35.72v12.73"/>
+            <rect width="51.93" height="51.93" x=".13" y="47.43" fill="#FFF" fill-rule="nonzero" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" rx="2.29"/>
+            <path fill="#A2D87E" fill-rule="nonzero" stroke="#454445" d="M6.54 53.84h39.12v39.12H6.54z"/>
+            <path fill="#767475" fill-rule="nonzero" stroke="#454444" stroke-linecap="round" stroke-linejoin="round" d="M4.73 62.07h3.62v8.56H4.73zM4.73 75.75h3.62v8.56H4.73z"/>
+            <circle cx="32" cy="74.11" r="5.53" fill="#767475" fill-rule="nonzero" stroke="#454444" stroke-linecap="round" stroke-linejoin="round"/>
+            <path fill="#5D5B5B" fill-rule="nonzero" stroke="#454444" stroke-linecap="round" stroke-linejoin="round" d="M32 68.58v-4.97M37.05 76.99l4.19 2.66M27.39 77.49l-4.12 2.76"/>
+            <path stroke="#454444" stroke-linecap="round" stroke-linejoin="round" d="M31.71 76.23a2.13 2.13 0 1 1 0-4.25"/>
+            <path fill="#000" fill-rule="nonzero" d="M78.51 85.2v-.83l4.5-6.28h-4.5v-.89h5.77v.8l-4.5 6.28h4.58v.89zM92.73 85.2v-6.58L90 85.2h-.41l-2.71-6.58v6.58h-1v-8h1.43l2.48 6 2.49-6h1.43v8zM100.43 85.2l-3-3.6-.8.91v2.69h-1v-8h1v4.14l3.54-4.14h1.25L98 81l3.62 4.2z"/>
+        </g>
+    </g>
+</svg>

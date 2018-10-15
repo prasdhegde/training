@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="118" height="118" viewBox="0 0 118 118">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0h118v118H0z"/>
+        <g fill="#C1E5A9" fill-rule="nonzero" opacity=".56">
+            <path d="M108.26 55.06c1 11.44-.58 28.27-7.89 39.43-13.12 20-34.71 25.74-57.83 19.45C19.42 107.65 4.28 87.92 3.12 64 1.96 40.08 14.89 19.93 37.29 11.43c37.91-14.43 68 8.79 70.97 43.63z" opacity=".68"/>
+            <path d="M110.6 49.6c1 11.44-.58 28.27-7.89 39.43-13.12 20-34.71 25.74-57.83 19.45-23.12-6.29-38.26-26-39.43-49.94C4.28 34.6 17.24 14.47 39.63 6c37.91-14.43 68 8.76 70.97 43.6z"/>
+        </g>
+        <path fill="#C1E5A9" fill-rule="nonzero" stroke="#C1E5A9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M98.42 44.14a3.22 3.22 0 0 0-1.31-2.26L59.72 15.1a4.2 4.2 0 0 0-4.9 0L17.25 42.2a2.84 2.84 0 0 0-1.14 1.94V101l.19-.14a3 3 0 0 0 2.84 2h76.34a3 3 0 0 0 2.84-2l.19.14V44.11l-.09.03zM60.88 72.37l-1.36-1a3.82 3.82 0 0 0-4.52 0l-1.36 1-32.81-24.68h72.88L60.88 72.37z"/>
+        <path fill="gray" fill-rule="nonzero" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" d="M96.22 45.46l-4.53 3h-69.6l-4.17-3a2.71 2.71 0 0 1 1.08-2.2l35.7-25.74a4 4 0 0 1 4.65 0L94.94 43a3.08 3.08 0 0 1 1.29 2.5l-.01-.04z"/>
+        <path fill="#A2D87E" fill-rule="nonzero" stroke="#383838" d="M87.15 34.83a4 4 0 1 1-8 0h-5.24a4 4 0 1 1-8 0h-5.25a4 4 0 1 1-8 0h-5.25a4 4 0 1 1-8 0h-5.25a4 4 0 1 1-8 0h-3.64V85.5h68.26V34.83h-3.63z"/>
+        <path stroke="#383838" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M52.26 54.04l5.13 5.13 10-10.52"/>
+        <path fill="#708445" fill-rule="nonzero" d="M29.26 52.98l27.39 16.9-3 1.5-24.39-18.4z" opacity=".3"/>
+        <path fill="#E1EAD0" fill-rule="nonzero" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" d="M17.92 45.07l35.96 27.05-35.96 27.05z"/>
+        <path fill="#708445" fill-rule="nonzero" d="M57.87 69.82l24.97-15.41-22.57 16.97z" opacity=".3"/>
+        <path fill="#FFF" fill-rule="nonzero" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" d="M93.34 100.94H20.8a2.88 2.88 0 0 1-2.88-2.88L54.93 71a3.63 3.63 0 0 1 4.29 0l37 27.07a2.88 2.88 0 0 1-2.88 2.87z"/>
+        <path fill="#E1EAD0" fill-rule="nonzero" d="M96.22 45.07L60.27 72.12l35.95 27.05z"/>
+        <path stroke="#404F54" stroke-linecap="round" stroke-linejoin="round" d="M96.22 57.67V52.9"/>
+        <path stroke="#383838" stroke-linecap="round" stroke-linejoin="round" d="M96.22 63.15v-1.56M96.22 52.9v-7.83L60.27 71.76l35.95 27.41V67.13"/>
+    </g>
+</svg>

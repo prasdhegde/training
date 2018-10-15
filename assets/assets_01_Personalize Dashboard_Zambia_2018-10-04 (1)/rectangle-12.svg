@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="117" height="117" viewBox="0 0 117 117">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0h117v117H0z"/>
+        <g fill="#C1E5A9" fill-rule="nonzero" opacity=".56">
+            <path d="M108.26 54.06c1 11.44-.58 28.27-7.89 39.43-13.12 20-34.71 25.74-57.83 19.45C19.42 106.65 4.28 86.92 3.12 63 1.96 39.08 14.89 18.93 37.29 10.43c37.91-14.43 68 8.79 70.97 43.63z" opacity=".68"/>
+            <path d="M110.6 48.6c1 11.44-.58 28.27-7.89 39.43-13.12 20-34.71 25.74-57.83 19.45-23.12-6.29-38.26-26-39.43-49.94C4.28 33.6 17.24 13.47 39.63 5c37.91-14.43 68 8.76 70.97 43.6z"/>
+        </g>
+        <path fill="#C1E5A9" fill-rule="nonzero" stroke="#C1E5A9" stroke-linecap="round" stroke-linejoin="round" stroke-width="6" d="M93.86 84.05v-5.37h-5.33V41.8h8.38v-5.37L58.26 10.94 19.61 36.43v5.37h6.75v36.88h-6.75v5.37h-5.52v7.81h86.27v-7.81h-6.5zM53 41.8h8.82v36.88H53V41.8zm26.6 36.88h-8.82V41.8h8.82v36.88zM35.29 41.8h8.82v36.88h-8.82V41.8z"/>
+        <path fill="#FFF" fill-rule="nonzero" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" d="M58.27 10.94L19.62 36.43h77.3zM26.37 41.03h8.93v37.65h-8.93zM44.12 41.03h8.93v37.65h-8.93zM61.87 41.03h8.93v37.65h-8.93zM79.61 41.03h8.93v37.65h-8.93zM19.62 78.68h74.26v5.37H19.62z"/>
+        <path fill="#FFF" fill-rule="nonzero" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" d="M19.62 36.43h77.3v5.37h-77.3zM14.1 84.05h86.27v7.81H14.1z"/>
+        <circle cx="58.08" cy="26.16" r="5.12" fill="#AAD188" fill-rule="nonzero" stroke="#383838" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="92.26" cy="82.93" r="15.94" fill="#D3D3EF" fill-rule="nonzero" stroke="#D3D3EF" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" opacity=".3"/>
+        <circle cx="92.26" cy="82.93" r="15.94" fill="#A2D87E" fill-rule="nonzero"/>
+        <path fill="gray" fill-rule="nonzero" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" d="M89.78 82.51s-.75 1.06-4.37 2.24c0 0-1.69.22-1.11 4a18 18 0 0 0 15.94 0s.66-3.43-1.11-4c-1.77-.57-3.92-1.38-4.37-2.25a4.22 4.22 0 0 1-4.93 0l-.05.01z"/>
+        <path fill="gray" fill-rule="nonzero" stroke="#383838" stroke-linecap="round" stroke-linejoin="round" d="M92.34 84.12A3.35 3.35 0 0 1 89 81l-.14-2.78a3.34 3.34 0 0 1 3.38-3.48h.21a3.35 3.35 0 0 1 3.38 3.39l-.07 2.78a3.35 3.35 0 0 1-3.42 3.21z"/>
+        <path stroke="#383838" d="M107.63 78.3a16 16 0 1 1-4.18-6.83M106 74.6c.397.64.748 1.31 1.05 2"/>
+    </g>
+</svg>

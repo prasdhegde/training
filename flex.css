@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-between;
+
+}
+
+.container *{
+    border: 1px solid black;
+    flex-grow: 1;
+}
+

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="13" viewBox="0 0 19 13">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0h19v13H0z"/>
+        <text fill="#383838" font-family="OpenSans-Semibold, Open Sans" font-size="16" font-weight="500" transform="translate(0 -2)">
+            <tspan x="7.75" y="17.335">A</tspan>
+        </text>
+        <text fill="#383838" font-family="OpenSans-Semibold, Open Sans" font-size="10" font-weight="500" transform="translate(0 -2)">
+            <tspan x="1" y="15.187">A</tspan>
+        </text>
+    </g>
+</svg>
